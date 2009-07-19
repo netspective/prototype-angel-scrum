@@ -1,0 +1,126 @@
+<HTML><HEAD><meta http-equiv="content-type" content="text/html; charset=utf-8"><meta http-equiv="imagetoolbar" content="no"><link href="Resources/axurerppage.css" type="text/css" rel="stylesheet"></HEAD><BODY>
+<script type="text/javascript">
+function InitializeSubmenu(submenucontainerid, tablecellroid, tablecellid, fname) { 
+var s = "";
+s = s + "function " + fname + "() { ";
+s = s + "document.getElementById(submenucontainerid).style.visibility='';";
+s = s + "BringToFront(submenucontainerid);";
+s = s + "}";
+if ((index = navigator.userAgent.indexOf("MSIE")) >= 0)
+s = s + "document.getElementById('" + tablecellid + "').attachEvent(\"onmouseover\", " + fname + ");";
+else
+s = s + "document.getElementById('" + tablecellid + "').addEventListener(\"mouseover\", " + fname + ", true);";
+s = s + "document.getElementById(tablecellroid).onclick = function() {";
+s = s + "if( document.createEvent ) {";
+s = s + "var evObj = document.createEvent('MouseEvents');";
+s = s + "evObj.initEvent( 'click', true, false );";
+s = s + "document.getElementById(tablecellid).dispatchEvent(evObj);";
+s = s + "} else if( document.createEventObject ) {";
+s = s + "document.getElementById(tablecellid).fireEvent('onclick');";
+s = s + "}";
+s = s + "}";
+eval(s);
+}
+</script>
+
+<span style="position:absolute; left:10px; top:64px; width:723px; height:5px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='Consultant Register_files/u0.png',sizingMethod='scale');
+"><img style="width:723px; height:5px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="Consultant Register_files/u0.png" border="0" alt=""></span>
+
+<IMG id=u0 src="Resources/transparent.gif" style="position:absolute; left:10px; top:63.5px; width:720px; height:2px">
+
+<span style="position:absolute; left:10px; top:10px; width:180px; height:30px">
+<IMG id=ou1 src="Consultant Register_files/u1.jpg" style="position:absolute;left:0px;top:0px;width:180px;height:30px">
+</span>
+<IMG id=u1 src="Resources/transparent.gif" style="position:absolute; left:10px; top:10px; width:180px; height:30px"   >
+
+<DIV id=u2 style="position:absolute; left:580px; top:50px; width:150px; height:14px; ; ; text-align: left ; font-family:Arial; text-align:left;" >
+<DIV id=u2_rtf><div style="text-align:right"><span style=" font-family:'Arial'; color:#000000; font-size:8pt;"><i>A Netspective production</i></span></div></DIV></DIV>
+<DIV id=u3 style="position:absolute; left:180px; top:14px; width:150px; height:16px; ; ; text-align: left ; font-family:Arial; text-align:left;" >
+<DIV id=u3_rtf><span style=" color:#0000FF; font-size:10pt;">Interactive Prototype</span></DIV></DIV>
+<DIV id=ou4 style="position:absolute; left:10px; top:70px; width:721px; height:31px;; overflow:visible">
+
+<span style="position:absolute; left:-3px; top:-3px; width:729px; height:39px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='Consultant Register_files/u4.png',sizingMethod='scale');
+"><img style="width:729px; height:39px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="Consultant Register_files/u4.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u4container style="position:absolute; left:10px; top:70px; width:721px; height:31px;; overflow:visible">
+
+<DIV id=u5 style="position:absolute; left:2px; top:7px; width:716px; height:16px; ; ; text-align: center ; font-family:Arial; text-align:left;" >
+<DIV id=u5_rtf>&nbsp;</DIV></DIV>
+</DIV>
+<IMG id=u4 src="Resources/transparent.gif" style="position:absolute; left:10px; top:70px; width:720px; height:30px"  >
+
+<DIV id=u6 style="position:absolute; left:20px; top:80px; width:120px; height:16px; ; ; text-align: left ; font-family:Arial; text-align:left;" >
+<DIV id=u6_rtf><span style=" font-family:'Arial'; color:#FF0000; font-size:10pt;"><u>Mission Statement</u></span></DIV></DIV>
+<DIV id=u7 style="position:absolute; left:140px; top:80px; width:150px; height:16px; ; ; text-align: left ; font-family:Arial; text-align:left;" >
+<DIV id=u7_rtf><span style=" font-family:'Arial'; color:#FF0000; font-size:10pt;"><u>Managing Director's Blog</u></span></DIV></DIV>
+<DIV id=u8 style="position:absolute; left:300px; top:80px; width:113px; height:16px; ; ; text-align: left ; font-family:Arial; text-align:left;" >
+<DIV id=u8_rtf><span style=" font-family:'Arial'; color:#FF0000; font-size:10pt;"><u>Registration Report</u></span></DIV></DIV>
+<DIV id=u9 style="position:absolute; left:423px; top:80px; width:100px; height:16px; ; ; text-align: left ; font-family:Arial; text-align:left;" >
+<DIV id=u9_rtf><span style=" font-family:'Arial'; color:#FF0000; font-size:10pt;"><u>Deals Report</u></span></DIV></DIV>
+<DIV id=u10 style="position:absolute; left:10px; top:46px; width:460px; height:24px; ; ; text-align: left ; font-family:Arial; text-align:left;" >
+<DIV id=u10_rtf><span style=" color:#0000FF; font-size:16pt;">Consultant Register</span></DIV></DIV>
+<DIV id=u11 style="position:absolute; left:10px; top:124px; width:150px; height:16px; ; ; text-align: left ; font-family:Arial; text-align:left;" >
+<DIV id=u11_rtf><span style=" font-family:'Arial'; color:#000000; font-size:10pt;">Consultant</span></DIV></DIV>
+<INPUT id=u12  type=text value="Full Legal Name" style="position:absolute; left:10px; top:180px; width:175px; height:25px; ; ; text-align: left ; font-family:'Arial'; font-size: 10pt; color:#000000; font-style:normal; font-weight:normal; text-decoration:none"   >
+
+<INPUT id=u13  type=text value="Company Name" style="position:absolute; left:10px; top:150px; width:175px; height:25px; ; ; text-align: left ; font-family:'Arial'; font-size: 10pt; color:#000000; font-style:normal; font-weight:normal; text-decoration:none"   >
+
+<INPUT id=u14  type=text value="Location of Business" style="position:absolute; left:10px; top:210px; width:175px; height:25px; ; ; text-align: left ; font-family:'Arial'; font-size: 10pt; color:#000000; font-style:normal; font-weight:normal; text-decoration:none"   >
+
+<INPUT id=u15  type=text value="State of Registeration" style="position:absolute; left:10px; top:240px; width:175px; height:25px; ; ; text-align: left ; font-family:'Arial'; font-size: 10pt; color:#000000; font-style:normal; font-weight:normal; text-decoration:none"   >
+
+<INPUT id=u16  type=text value="Email Address" style="position:absolute; left:10px; top:330px; width:175px; height:25px; ; ; text-align: left ; font-family:'Arial'; font-size: 10pt; color:#000000; font-style:normal; font-weight:normal; text-decoration:none"   >
+
+<INPUT id=u17  type=text value="Phone Number" style="position:absolute; left:10px; top:360px; width:175px; height:25px; ; ; text-align: left ; font-family:'Arial'; font-size: 10pt; color:#000000; font-style:normal; font-weight:normal; text-decoration:none"   >
+
+<INPUT id=u18  type=text value="Alternate Number 1" style="position:absolute; left:10px; top:390px; width:175px; height:25px; ; ; text-align: left ; font-family:'Arial'; font-size: 10pt; color:#000000; font-style:normal; font-weight:normal; text-decoration:none"   >
+
+<SELECT id=u19  style="position:absolute; left:190px; top:360px; width:110px; height:22px; ; background-color:#FFFFFF; text-align: left ; font-family:'Arial'; font-size: 10pt; color:#000000; font-style:normal; font-weight:normal; text-decoration:none" >
+<OPTION selected value="Home">Home</OPTION>
+<OPTION selected value="Cell">Cell</OPTION>
+<OPTION selected value="Work">Work</OPTION>
+</SELECT>
+
+<SELECT id=u20  style="position:absolute; left:190px; top:390px; width:110px; height:22px; ; background-color:#FFFFFF; text-align: left ; font-family:'Arial'; font-size: 10pt; color:#000000; font-style:normal; font-weight:normal; text-decoration:none" >
+<OPTION selected value="Work">Work</OPTION>
+<OPTION selected value="Home">Home</OPTION>
+<OPTION selected value="Cell">Cell</OPTION>
+</SELECT>
+
+<SELECT id=u21  style="position:absolute; left:190px; top:420px; width:110px; height:22px; ; background-color:#FFFFFF; text-align: left ; font-family:'Arial'; font-size: 10pt; color:#000000; font-style:normal; font-weight:normal; text-decoration:none" >
+<OPTION selected value="Cell">Cell</OPTION>
+<OPTION selected value="Work">Work</OPTION>
+<OPTION selected value="Home">Home</OPTION>
+</SELECT>
+
+<INPUT id=u22  type=text value="Alternate Number 2" style="position:absolute; left:10px; top:420px; width:175px; height:25px; ; ; text-align: left ; font-family:'Arial'; font-size: 10pt; color:#000000; font-style:normal; font-weight:normal; text-decoration:none"   >
+
+<INPUT id=u23  type=text value="Username" style="position:absolute; left:10px; top:270px; width:175px; height:25px; ; ; text-align: left ; font-family:'Arial'; font-size: 10pt; color:#000000; font-style:normal; font-weight:normal; text-decoration:none"   >
+
+<INPUT id=u24  type=text value="Password (alphanumeric)" style="position:absolute; left:10px; top:300px; width:175px; height:25px; ; ; text-align: left ; font-family:'Arial'; font-size: 10pt; color:#000000; font-style:normal; font-weight:normal; text-decoration:none"   >
+
+<DIV id=ou25 style="position:absolute; left:10px; top:455px; width:301px; height:196px;; overflow:visible">
+
+<span style="position:absolute; left:-3px; top:-3px; width:309px; height:204px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='Consultant Register_files/u25.png',sizingMethod='scale');
+"><img style="width:309px; height:204px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="Consultant Register_files/u25.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u25container style="position:absolute; left:10px; top:455px; width:301px; height:196px;; overflow:visible">
+
+<DIV id=u26 style="position:absolute; left:2px; top:2px; width:296px; height:16px; ; ; text-align: left ; font-family:Arial; text-align:left;" >
+<DIV id=u26_rtf><span style=" color:#000000; font-size:10pt;">Offered Services</span></DIV></DIV>
+</DIV>
+<IMG id=u25 src="Resources/transparent.gif" style="position:absolute; left:10px; top:455px; width:300px; height:195px"  >
+
+<INPUT id=u27  type=submit value="Consultant" style="position:absolute; left:100px; top:670px; width:100px; height:25px; ; ; text-align: center ; font-family:'Arial'; font-size: 10pt; color:#000000; font-style:normal; font-weight:normal; text-decoration:none" >
+
+<INPUT id=u28  type=submit value="Cancel" style="position:absolute; left:210px; top:670px; width:100px; height:25px; ; ; text-align: center ; font-family:'Arial'; font-size: 10pt; color:#000000; font-style:normal; font-weight:normal; text-decoration:none" >
+<SCRIPT src="Resources/axurerp_pagescript.js"></SCRIPT>
+<SCRIPT src="Consultant Register_files/axurerp_pagespecificscript.js"></SCRIPT></BODY></HTML>

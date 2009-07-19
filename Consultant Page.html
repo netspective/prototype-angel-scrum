@@ -1,0 +1,263 @@
+<HTML><HEAD><meta http-equiv="content-type" content="text/html; charset=utf-8"><meta http-equiv="imagetoolbar" content="no"><link href="Resources/axurerppage.css" type="text/css" rel="stylesheet"></HEAD><BODY>
+<script type="text/javascript">
+function InitializeSubmenu(submenucontainerid, tablecellroid, tablecellid, fname) { 
+var s = "";
+s = s + "function " + fname + "() { ";
+s = s + "document.getElementById(submenucontainerid).style.visibility='';";
+s = s + "BringToFront(submenucontainerid);";
+s = s + "}";
+if ((index = navigator.userAgent.indexOf("MSIE")) >= 0)
+s = s + "document.getElementById('" + tablecellid + "').attachEvent(\"onmouseover\", " + fname + ");";
+else
+s = s + "document.getElementById('" + tablecellid + "').addEventListener(\"mouseover\", " + fname + ", true);";
+s = s + "document.getElementById(tablecellroid).onclick = function() {";
+s = s + "if( document.createEvent ) {";
+s = s + "var evObj = document.createEvent('MouseEvents');";
+s = s + "evObj.initEvent( 'click', true, false );";
+s = s + "document.getElementById(tablecellid).dispatchEvent(evObj);";
+s = s + "} else if( document.createEventObject ) {";
+s = s + "document.getElementById(tablecellid).fireEvent('onclick');";
+s = s + "}";
+s = s + "}";
+eval(s);
+}
+</script>
+
+<DIV id=u0 style="position:absolute; left:670px; top:10px; width:60px; height:16px; ; ; text-align: left ; font-family:Arial; text-align:left;" >
+<DIV id=u0_rtf><span style=" font-family:'Arial'; color:#0000FF; font-size:10pt;"><u>Sign Out</u></span></DIV></DIV>
+<span style="position:absolute; left:10px; top:64px; width:723px; height:5px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='Consultant Page_files/u1.png',sizingMethod='scale');
+"><img style="width:723px; height:5px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="Consultant Page_files/u1.png" border="0" alt=""></span>
+
+<IMG id=u1 src="Resources/transparent.gif" style="position:absolute; left:10px; top:63.5px; width:720px; height:2px">
+
+<span style="position:absolute; left:10px; top:10px; width:180px; height:30px">
+<IMG id=ou2 src="Consultant Page_files/u2.jpg" style="position:absolute;left:0px;top:0px;width:180px;height:30px">
+</span>
+<IMG id=u2 src="Resources/transparent.gif" style="position:absolute; left:10px; top:10px; width:180px; height:30px"   >
+
+<DIV id=u3 style="position:absolute; left:580px; top:50px; width:150px; height:14px; ; ; text-align: left ; font-family:Arial; text-align:left;" >
+<DIV id=u3_rtf><div style="text-align:right"><span style=" font-family:'Arial'; color:#000000; font-size:8pt;"><i>A Netspective production</i></span></div></DIV></DIV>
+<DIV id=u4 style="position:absolute; left:180px; top:14px; width:150px; height:16px; ; ; text-align: left ; font-family:Arial; text-align:left;" >
+<DIV id=u4_rtf><span style=" color:#0000FF; font-size:10pt;">Interactive Prototype</span></DIV></DIV>
+<DIV id=ou5 style="position:absolute; left:10px; top:70px; width:721px; height:31px;; overflow:visible">
+
+<span style="position:absolute; left:-3px; top:-3px; width:729px; height:39px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='Consultant Page_files/u5.png',sizingMethod='scale');
+"><img style="width:729px; height:39px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="Consultant Page_files/u5.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u5container style="position:absolute; left:10px; top:70px; width:721px; height:31px;; overflow:visible">
+
+<DIV id=u6 style="position:absolute; left:2px; top:7px; width:716px; height:16px; ; ; text-align: center ; font-family:Arial; text-align:left;" >
+<DIV id=u6_rtf>&nbsp;</DIV></DIV>
+</DIV>
+<IMG id=u5 src="Resources/transparent.gif" style="position:absolute; left:10px; top:70px; width:720px; height:30px"  >
+
+<DIV id=u7 style="position:absolute; left:20px; top:80px; width:40px; height:16px; ; ; text-align: left ; font-family:Arial; text-align:left;" >
+<DIV id=u7_rtf><span style=" font-family:'Arial'; color:#FF0000; font-size:10pt;"><u>Profile</u></span></DIV></DIV>
+<DIV id=u8 style="position:absolute; left:10px; top:130px; width:150px; height:16px; ; ; text-align: left ; font-family:Arial; text-align:left;" >
+<DIV id=u8_rtf><span style=" font-family:'Arial'; color:#000000; font-size:10pt;">Contact Me:</span></DIV></DIV>
+<DIV id=u9 style="position:absolute; left:10px; top:150px; width:150px; height:16px; ; ; text-align: left ; font-family:Arial; text-align:left;" >
+<DIV id=u9_rtf><span style=" font-family:'Arial'; color:#000000; font-size:10pt;">301-456-7890 (C)</span></DIV></DIV>
+<DIV id=u10 style="position:absolute; left:10px; top:166px; width:150px; height:16px; ; ; text-align: left ; font-family:Arial; text-align:left;" >
+<DIV id=u10_rtf><span style=" font-family:'Arial'; color:#000000; font-size:10pt;">504-994-9876 (W)</span></DIV></DIV>
+<DIV id=u11 style="position:absolute; left:10px; top:186px; width:180px; height:16px; ; ; text-align: left ; font-family:Arial; text-align:left;" >
+<DIV id=u11_rtf><span style=" color:#0000FF; font-size:10pt;"><u>joeb@ventureconsulting.com</u></span></DIV></DIV>
+<DIV id=u11ann style="font-size:1px; position:absolute; left:181px; top:182px; width:1px; height:1px; overflow:visible"></DIV>
+
+<span style="position:absolute; left:194px; top:130px; width:5px; height:433px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='Consultant Page_files/u12.png',sizingMethod='scale');
+"><img style="width:5px; height:433px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="Consultant Page_files/u12.png" border="0" alt=""></span>
+
+<IMG id=u12 src="Resources/transparent.gif" style="position:absolute; left:193.5px; top:130px; width:2px; height:430px">
+
+<DIV id=u13 style="position:absolute; left:10px; top:296px; width:150px; height:16px; ; ; text-align: left ; font-family:Arial; text-align:left;" >
+<DIV id=u13_rtf><span style=" font-family:'Arial'; color:#000000; font-size:10pt;">Services Offered</span></DIV></DIV>
+<DIV id=ou14 style="position:absolute; left:10px; top:317px; width:176px; height:226px;; overflow:visible">
+
+<span style="position:absolute; left:-3px; top:-3px; width:184px; height:234px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='Consultant Page_files/u14.png',sizingMethod='scale');
+"><img style="width:184px; height:234px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="Consultant Page_files/u14.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u14container style="position:absolute; left:10px; top:317px; width:176px; height:226px;; overflow:visible">
+
+<DIV id=u15 style="position:absolute; left:2px; top:2px; width:171px; height:16px; ; ; text-align: left ; font-family:Arial; text-align:left;" >
+<DIV id=u15_rtf><span style=" color:#000000; font-size:10pt;">**Buletted list of services**</span></DIV></DIV>
+</DIV>
+<IMG id=u14 src="Resources/transparent.gif" style="position:absolute; left:10px; top:317px; width:175px; height:225px"  >
+
+<DIV id=u16 style="position:absolute; left:10px; top:212px; width:150px; height:32px; ; ; text-align: left ; font-family:Arial; text-align:left;" >
+<DIV id=u16_rtf><span style=" font-family:'Arial'; color:#000000; font-size:10pt;">1234 Main St.<br>Springfield, AZ 29903</span></DIV></DIV>
+<span style="position:absolute; left:0px; top:276px; width:193px; height:5px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='Consultant Page_files/u17.png',sizingMethod='scale');
+"><img style="width:193px; height:5px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="Consultant Page_files/u17.png" border="0" alt=""></span>
+
+<IMG id=u17 src="Resources/transparent.gif" style="position:absolute; left:0px; top:275.5px; width:190px; height:2px">
+
+<DIV id=u18 style="position:absolute; left:10px; top:46px; width:390px; height:24px; ; ; text-align: left ; font-family:Arial; text-align:left;" >
+<DIV id=u18_rtf><span style=" color:#0000FF; font-size:16pt;">Welcome Consultant</span></DIV></DIV>
+<DIV id=u19 style="position:absolute; left:200px; top:150px; width:205px; height:105px;"></DIV>
+
+<DIV id=u19container style="position:absolute; left:200px; top:150px; width:205px; height:105px; overflow:hidden">
+
+<DIV id=ou20 style="position:absolute; left:0px; top:0px; width:101px; height:21px;; overflow:visible">
+
+<span style="position:absolute; left:-3px; top:-3px; width:109px; height:29px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='Consultant Page_files/u20.png',sizingMethod='scale');
+"><img style="width:109px; height:29px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="Consultant Page_files/u20.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u20container style="position:absolute; left:0px; top:0px; width:101px; height:21px;; overflow:visible">
+
+<DIV id=u21 style="position:absolute; left:2px; top:2px; width:96px; height:16px; ; ; text-align: left ; font-family:Arial; text-align:left;" >
+<DIV id=u21_rtf><span style=" font-family:'Arial'; color:#000000; font-size:10pt;">Victoria Gn</span></DIV></DIV>
+</DIV>
+<IMG id=u20 src="Resources/transparent.gif" style="position:absolute; left:0px; top:0px; width:100px; height:20px"  >
+
+<DIV id=ou22 style="position:absolute; left:100px; top:0px; width:101px; height:21px;; overflow:visible">
+
+<span style="position:absolute; left:-3px; top:-3px; width:109px; height:29px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='Consultant Page_files/u22.png',sizingMethod='scale');
+"><img style="width:109px; height:29px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="Consultant Page_files/u22.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u22container style="position:absolute; left:100px; top:0px; width:101px; height:21px;; overflow:visible">
+
+<DIV id=u23 style="position:absolute; left:2px; top:2px; width:96px; height:16px; ; ; text-align: left ; font-family:Arial; text-align:left;" >
+<DIV id=u23_rtf><span style=" color:#000000; font-size:10pt;">(202) 338 9976</span></DIV></DIV>
+</DIV>
+<IMG id=u22 src="Resources/transparent.gif" style="position:absolute; left:100px; top:0px; width:100px; height:20px"  >
+
+<DIV id=ou24 style="position:absolute; left:0px; top:20px; width:101px; height:21px;; overflow:visible">
+
+<span style="position:absolute; left:-3px; top:-3px; width:109px; height:29px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='Consultant Page_files/u24.png',sizingMethod='scale');
+"><img style="width:109px; height:29px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="Consultant Page_files/u24.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u24container style="position:absolute; left:0px; top:20px; width:101px; height:21px;; overflow:visible">
+
+<DIV id=u25 style="position:absolute; left:2px; top:2px; width:96px; height:16px; ; ; text-align: left ; font-family:Arial; text-align:left;" >
+<DIV id=u25_rtf><span style=" font-family:'Arial'; color:#000000; font-size:10pt;">Lu Chi</span></DIV></DIV>
+</DIV>
+<IMG id=u24 src="Resources/transparent.gif" style="position:absolute; left:0px; top:20px; width:100px; height:20px"  >
+
+<DIV id=ou26 style="position:absolute; left:100px; top:20px; width:101px; height:21px;; overflow:visible">
+
+<span style="position:absolute; left:-3px; top:-3px; width:109px; height:29px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='Consultant Page_files/u26.png',sizingMethod='scale');
+"><img style="width:109px; height:29px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="Consultant Page_files/u26.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u26container style="position:absolute; left:100px; top:20px; width:101px; height:21px;; overflow:visible">
+
+<DIV id=u27 style="position:absolute; left:2px; top:2px; width:96px; height:16px; ; ; text-align: left ; font-family:Arial; text-align:left;" >
+<DIV id=u27_rtf><span style=" color:#000000; font-size:10pt;">(240) 454 9876</span></DIV></DIV>
+</DIV>
+<IMG id=u26 src="Resources/transparent.gif" style="position:absolute; left:100px; top:20px; width:100px; height:20px"  >
+
+<DIV id=ou28 style="position:absolute; left:0px; top:40px; width:101px; height:21px;; overflow:visible">
+
+<span style="position:absolute; left:-3px; top:-3px; width:109px; height:29px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='Consultant Page_files/u28.png',sizingMethod='scale');
+"><img style="width:109px; height:29px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="Consultant Page_files/u28.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u28container style="position:absolute; left:0px; top:40px; width:101px; height:21px;; overflow:visible">
+
+<DIV id=u29 style="position:absolute; left:2px; top:2px; width:96px; height:16px; ; ; text-align: left ; font-family:Arial; text-align:left;" >
+<DIV id=u29_rtf><span style=" color:#000000; font-size:10pt;">Jessica Carrell</span></DIV></DIV>
+</DIV>
+<IMG id=u28 src="Resources/transparent.gif" style="position:absolute; left:0px; top:40px; width:100px; height:20px"  >
+
+<DIV id=ou30 style="position:absolute; left:100px; top:40px; width:101px; height:21px;; overflow:visible">
+
+<span style="position:absolute; left:-3px; top:-3px; width:109px; height:29px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='Consultant Page_files/u30.png',sizingMethod='scale');
+"><img style="width:109px; height:29px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="Consultant Page_files/u30.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u30container style="position:absolute; left:100px; top:40px; width:101px; height:21px;; overflow:visible">
+
+<DIV id=u31 style="position:absolute; left:2px; top:2px; width:96px; height:16px; ; ; text-align: left ; font-family:Arial; text-align:left;" >
+<DIV id=u31_rtf><span style=" color:#000000; font-size:10pt;">(301) 767 6677</span></DIV></DIV>
+</DIV>
+<IMG id=u30 src="Resources/transparent.gif" style="position:absolute; left:100px; top:40px; width:100px; height:20px"  >
+
+<DIV id=ou32 style="position:absolute; left:0px; top:60px; width:101px; height:21px;; overflow:visible">
+
+<span style="position:absolute; left:-3px; top:-3px; width:109px; height:29px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='Consultant Page_files/u32.png',sizingMethod='scale');
+"><img style="width:109px; height:29px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="Consultant Page_files/u32.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u32container style="position:absolute; left:0px; top:60px; width:101px; height:21px;; overflow:visible">
+
+<DIV id=u33 style="position:absolute; left:2px; top:2px; width:96px; height:16px; ; ; text-align: left ; font-family:Arial; text-align:left;" >
+<DIV id=u33_rtf><span style=" font-family:'Arial'; color:#000000; font-size:10pt;">Kira Johnson</span></DIV></DIV>
+</DIV>
+<IMG id=u32 src="Resources/transparent.gif" style="position:absolute; left:0px; top:60px; width:100px; height:20px"  >
+
+<DIV id=ou34 style="position:absolute; left:100px; top:60px; width:101px; height:21px;; overflow:visible">
+
+<span style="position:absolute; left:-3px; top:-3px; width:109px; height:29px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='Consultant Page_files/u34.png',sizingMethod='scale');
+"><img style="width:109px; height:29px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="Consultant Page_files/u34.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u34container style="position:absolute; left:100px; top:60px; width:101px; height:21px;; overflow:visible">
+
+<DIV id=u35 style="position:absolute; left:2px; top:2px; width:96px; height:16px; ; ; text-align: left ; font-family:Arial; text-align:left;" >
+<DIV id=u35_rtf><span style=" color:#000000; font-size:10pt;">(540) 345 8734</span></DIV></DIV>
+</DIV>
+<IMG id=u34 src="Resources/transparent.gif" style="position:absolute; left:100px; top:60px; width:100px; height:20px"  >
+
+<DIV id=ou36 style="position:absolute; left:0px; top:80px; width:101px; height:21px;; overflow:visible">
+
+<span style="position:absolute; left:-3px; top:-3px; width:109px; height:29px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='Consultant Page_files/u36.png',sizingMethod='scale');
+"><img style="width:109px; height:29px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="Consultant Page_files/u36.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u36container style="position:absolute; left:0px; top:80px; width:101px; height:21px;; overflow:visible">
+
+<DIV id=u37 style="position:absolute; left:2px; top:2px; width:96px; height:16px; ; ; text-align: left ; font-family:Arial; text-align:left;" >
+<DIV id=u37_rtf><span style=" font-family:'Arial'; color:#000000; font-size:10pt;">Maria Lopez</span></DIV></DIV>
+</DIV>
+<IMG id=u36 src="Resources/transparent.gif" style="position:absolute; left:0px; top:80px; width:100px; height:20px"  >
+
+<DIV id=ou38 style="position:absolute; left:100px; top:80px; width:101px; height:21px;; overflow:visible">
+
+<span style="position:absolute; left:-3px; top:-3px; width:109px; height:29px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='Consultant Page_files/u38.png',sizingMethod='scale');
+"><img style="width:109px; height:29px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="Consultant Page_files/u38.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u38container style="position:absolute; left:100px; top:80px; width:101px; height:21px;; overflow:visible">
+
+<DIV id=u39 style="position:absolute; left:2px; top:2px; width:96px; height:16px; ; ; text-align: left ; font-family:Arial; text-align:left;" >
+<DIV id=u39_rtf><span style=" color:#000000; font-size:10pt;">(717) 490 8712</span></DIV></DIV>
+</DIV>
+<IMG id=u38 src="Resources/transparent.gif" style="position:absolute; left:100px; top:80px; width:100px; height:20px"  >
+
+</DIV>
+<DIV id=u40 style="position:absolute; left:200px; top:130px; width:150px; height:16px; ; ; text-align: left ; font-family:Arial; text-align:left;" >
+<DIV id=u40_rtf><span style=" font-family:'Arial'; color:#000000; font-size:10pt;">Reference List</span></DIV></DIV><SCRIPT src="Resources/axurerp_pagescript.js"></SCRIPT>
+<SCRIPT src="Consultant Page_files/axurerp_pagespecificscript.js"></SCRIPT></BODY></HTML>

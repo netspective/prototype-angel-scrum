@@ -1,0 +1,77 @@
+<HTML><HEAD><meta http-equiv="content-type" content="text/html; charset=utf-8"><meta http-equiv="imagetoolbar" content="no"><link href="Resources/axurerppage.css" type="text/css" rel="stylesheet"></HEAD><BODY>
+<script type="text/javascript">
+function InitializeSubmenu(submenucontainerid, tablecellroid, tablecellid, fname) { 
+var s = "";
+s = s + "function " + fname + "() { ";
+s = s + "document.getElementById(submenucontainerid).style.visibility='';";
+s = s + "BringToFront(submenucontainerid);";
+s = s + "}";
+if ((index = navigator.userAgent.indexOf("MSIE")) >= 0)
+s = s + "document.getElementById('" + tablecellid + "').attachEvent(\"onmouseover\", " + fname + ");";
+else
+s = s + "document.getElementById('" + tablecellid + "').addEventListener(\"mouseover\", " + fname + ", true);";
+s = s + "document.getElementById(tablecellroid).onclick = function() {";
+s = s + "if( document.createEvent ) {";
+s = s + "var evObj = document.createEvent('MouseEvents');";
+s = s + "evObj.initEvent( 'click', true, false );";
+s = s + "document.getElementById(tablecellid).dispatchEvent(evObj);";
+s = s + "} else if( document.createEventObject ) {";
+s = s + "document.getElementById(tablecellid).fireEvent('onclick');";
+s = s + "}";
+s = s + "}";
+eval(s);
+}
+</script>
+
+<span style="position:absolute; left:10px; top:10px; width:288px; height:108px">
+<IMG id=ou0 src="Policy_files/u0.jpg" style="position:absolute;left:0px;top:0px;width:288px;height:108px">
+</span>
+<IMG id=u0 src="Resources/transparent.gif" style="position:absolute; left:10px; top:10px; width:288px; height:108px"   >
+
+<span style="position:absolute; left:10px; top:164px; width:823px; height:5px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='Policy_files/u1.png',sizingMethod='scale');
+"><img style="width:823px; height:5px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="Policy_files/u1.png" border="0" alt=""></span>
+
+<IMG id=u1 src="Resources/transparent.gif" style="position:absolute; left:10px; top:163.5px; width:820px; height:2px">
+
+<DIV id=u2 style="position:absolute; left:10px; top:144px; width:100px; height:16px; ; ; text-align: left ; font-family:Arial; text-align:left;" >
+<DIV id=u2_rtf><span style=" font-family:'Arial'; color:#0000FF; font-size:10pt;"><u>Acredited Deals</u></span></DIV></DIV>
+<DIV id=u3 style="position:absolute; left:110px; top:144px; width:110px; height:16px; ; ; text-align: left ; font-family:Arial; text-align:left;" >
+<DIV id=u3_rtf><span style=" font-family:'Arial'; color:#0000FF; font-size:10pt;"><u>Investment Policy</u></span></DIV></DIV>
+<DIV id=u4 style="position:absolute; left:220px; top:144px; width:130px; height:16px; ; ; text-align: left ; font-family:Arial; text-align:left;" >
+<DIV id=u4_rtf><span style=" font-family:'Arial'; color:#0000FF; font-size:10pt;"><u>Preferred Investments</u></span></DIV></DIV>
+<DIV id=u5 style="position:absolute; left:470px; top:34px; width:120px; height:16px; ; ; text-align: left ; font-family:Arial; text-align:left;" >
+<DIV id=u5_rtf><span style=" font-family:'Arial'; color:#0000FF; font-size:10pt;"><u>Investment Portfolio</u></span></DIV></DIV>
+<DIV id=u6 style="position:absolute; left:680px; top:144px; width:60px; height:16px; ; ; text-align: left ; font-family:Arial; text-align:left;" >
+<DIV id=u6_rtf><span style=" font-family:'Arial'; color:#0000FF; font-size:10pt;"><u>Sign Out</u></span></DIV></DIV>
+<DIV id=u7 style="position:absolute; left:650px; top:10px; width:100px; height:16px; ; ; text-align: left ; font-family:Arial; text-align:left;" >
+<DIV id=u7_rtf><span style=" font-family:'Arial'; color:#0000FF; font-size:10pt;"><u>RSS Feed</u></span></DIV></DIV>
+<DIV id=u8 style="position:absolute; left:470px; top:34px; width:120px; height:16px; ; ; text-align: left ; font-family:Arial; text-align:left;" >
+<DIV id=u8_rtf><span style=" font-family:'Arial'; color:#0000FF; font-size:10pt;"><u>Investment Portfolio</u></span></DIV></DIV>
+<DIV id=u9 style="position:absolute; left:470px; top:14px; width:150px; height:16px; ; ; text-align: left ; font-family:Arial; text-align:left;" >
+<DIV id=u9_rtf><span style=" font-family:'Arial'; color:#000000; font-size:10pt;">Welcome Kenny</span></DIV></DIV>
+<DIV id=u10 style="position:absolute; left:310px; top:70px; width:340px; height:45px; ; ; text-align: left ; font-family:Arial; text-align:left;" >
+<DIV id=u10_rtf><span style=" color:#0000FF; font-size:30pt;">Investment Policy</span></DIV></DIV>
+<DIV id=u11 style="position:absolute; left:680px; top:144px; width:60px; height:16px; ; ; text-align: left ; font-family:Arial; text-align:left;" >
+<DIV id=u11_rtf><span style=" font-family:'Arial'; color:#0000FF; font-size:10pt;"><u>Sign Out</u></span></DIV></DIV>
+<DIV id=u12 style="position:absolute; left:650px; top:10px; width:100px; height:16px; ; ; text-align: left ; font-family:Arial; text-align:left;" >
+<DIV id=u12_rtf><span style=" font-family:'Arial'; color:#0000FF; font-size:10pt;"><u>RSS Feed</u></span></DIV></DIV>
+<DIV id=ou13 style="position:absolute; left:10px; top:180px; width:821px; height:301px;; overflow:visible">
+
+<span style="position:absolute; left:-3px; top:-3px; width:829px; height:309px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='Policy_files/u13.png',sizingMethod='scale');
+"><img style="width:829px; height:309px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="Policy_files/u13.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u13container style="position:absolute; left:10px; top:180px; width:821px; height:301px;; overflow:visible">
+
+<DIV id=u14 style="position:absolute; left:2px; top:2px; width:816px; height:48px; ; ; text-align: left ; font-family:Arial; text-align:left;" >
+<DIV id=u14_rtf><span style=" color:#000000; font-size:10pt;">Our policy consist of much content.<br><br>...</span></DIV></DIV>
+</DIV>
+<IMG id=u13 src="Resources/transparent.gif" style="position:absolute; left:10px; top:180px; width:820px; height:300px"  >
+
+<DIV id=u13ann style="font-size:1px; position:absolute; left:821px; top:176px; width:1px; height:1px; overflow:visible"></DIV>
+<SCRIPT src="Resources/axurerp_pagescript.js"></SCRIPT>
+<SCRIPT src="Policy_files/axurerp_pagespecificscript.js"></SCRIPT></BODY></HTML>

@@ -1,0 +1,116 @@
+<HTML><HEAD><meta http-equiv="content-type" content="text/html; charset=utf-8"><meta http-equiv="imagetoolbar" content="no"><link href="Resources/axurerppage.css" type="text/css" rel="stylesheet"></HEAD><BODY>
+<script type="text/javascript">
+function InitializeSubmenu(submenucontainerid, tablecellroid, tablecellid, fname) { 
+var s = "";
+s = s + "function " + fname + "() { ";
+s = s + "document.getElementById(submenucontainerid).style.visibility='';";
+s = s + "BringToFront(submenucontainerid);";
+s = s + "}";
+if ((index = navigator.userAgent.indexOf("MSIE")) >= 0)
+s = s + "document.getElementById('" + tablecellid + "').attachEvent(\"onmouseover\", " + fname + ");";
+else
+s = s + "document.getElementById('" + tablecellid + "').addEventListener(\"mouseover\", " + fname + ", true);";
+s = s + "document.getElementById(tablecellroid).onclick = function() {";
+s = s + "if( document.createEvent ) {";
+s = s + "var evObj = document.createEvent('MouseEvents');";
+s = s + "evObj.initEvent( 'click', true, false );";
+s = s + "document.getElementById(tablecellid).dispatchEvent(evObj);";
+s = s + "} else if( document.createEventObject ) {";
+s = s + "document.getElementById(tablecellid).fireEvent('onclick');";
+s = s + "}";
+s = s + "}";
+eval(s);
+}
+</script>
+
+<DIV id=u0 style="position:absolute; left:670px; top:10px; width:60px; height:16px; ; ; text-align: left ; font-family:Arial; text-align:left;" >
+<DIV id=u0_rtf><span style=" font-family:'Arial'; color:#0000FF; font-size:10pt;"><u>Sign Out</u></span></DIV></DIV>
+<span style="position:absolute; left:10px; top:64px; width:723px; height:5px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='Consultant Profile_files/u1.png',sizingMethod='scale');
+"><img style="width:723px; height:5px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="Consultant Profile_files/u1.png" border="0" alt=""></span>
+
+<IMG id=u1 src="Resources/transparent.gif" style="position:absolute; left:10px; top:63.5px; width:720px; height:2px">
+
+<span style="position:absolute; left:10px; top:10px; width:180px; height:30px">
+<IMG id=ou2 src="Consultant Profile_files/u2.jpg" style="position:absolute;left:0px;top:0px;width:180px;height:30px">
+</span>
+<IMG id=u2 src="Resources/transparent.gif" style="position:absolute; left:10px; top:10px; width:180px; height:30px"   >
+
+<DIV id=u3 style="position:absolute; left:580px; top:50px; width:150px; height:14px; ; ; text-align: left ; font-family:Arial; text-align:left;" >
+<DIV id=u3_rtf><div style="text-align:right"><span style=" font-family:'Arial'; color:#000000; font-size:8pt;"><i>A Netspective production</i></span></div></DIV></DIV>
+<DIV id=u4 style="position:absolute; left:180px; top:14px; width:150px; height:16px; ; ; text-align: left ; font-family:Arial; text-align:left;" >
+<DIV id=u4_rtf><span style=" color:#0000FF; font-size:10pt;">Interactive Prototype</span></DIV></DIV>
+<DIV id=ou5 style="position:absolute; left:10px; top:70px; width:721px; height:31px;; overflow:visible">
+
+<span style="position:absolute; left:-3px; top:-3px; width:729px; height:39px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='Consultant Profile_files/u5.png',sizingMethod='scale');
+"><img style="width:729px; height:39px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="Consultant Profile_files/u5.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u5container style="position:absolute; left:10px; top:70px; width:721px; height:31px;; overflow:visible">
+
+<DIV id=u6 style="position:absolute; left:2px; top:7px; width:716px; height:16px; ; ; text-align: center ; font-family:Arial; text-align:left;" >
+<DIV id=u6_rtf>&nbsp;</DIV></DIV>
+</DIV>
+<IMG id=u5 src="Resources/transparent.gif" style="position:absolute; left:10px; top:70px; width:720px; height:30px"  >
+
+<DIV id=u7 style="position:absolute; left:20px; top:80px; width:40px; height:16px; ; ; text-align: left ; font-family:Arial; text-align:left;" >
+<DIV id=u7_rtf><span style=" font-family:'Arial'; color:#FF0000; font-size:10pt;"><u>Profile</u></span></DIV></DIV>
+<DIV id=u8 style="position:absolute; left:10px; top:46px; width:600px; height:24px; ; ; text-align: left ; font-family:Arial; text-align:left;" >
+<DIV id=u8_rtf><span style=" font-family:'Arial'; color:#0000FF; font-size:16pt;">Consultant Profile</span></DIV></DIV>
+<INPUT id=u9  type=text value="Joe Brown" style="position:absolute; left:10px; top:155px; width:175px; height:25px; ; ; text-align: left ; font-family:'Arial'; font-size: 10pt; color:#000000; font-style:normal; font-weight:normal; text-decoration:none"   >
+
+<INPUT id=u10  type=text value="Venture Consulting" style="position:absolute; left:10px; top:125px; width:175px; height:25px; ; ; text-align: left ; font-family:'Arial'; font-size: 10pt; color:#000000; font-style:normal; font-weight:normal; text-decoration:none"   >
+
+<INPUT id=u11  type=text value="1234 Main St.&nbsp; Springfeild" style="position:absolute; left:10px; top:185px; width:175px; height:25px; ; ; text-align: left ; font-family:'Arial'; font-size: 10pt; color:#000000; font-style:normal; font-weight:normal; text-decoration:none"   >
+
+<INPUT id=u12  type=text value="Arazonia" style="position:absolute; left:10px; top:215px; width:175px; height:25px; ; ; text-align: left ; font-family:'Arial'; font-size: 10pt; color:#000000; font-style:normal; font-weight:normal; text-decoration:none"   >
+
+<INPUT id=u13  type=text value="joeb@ventureconsulting.com" style="position:absolute; left:10px; top:310px; width:190px; height:25px; ; ; text-align: left ; font-family:'Arial'; font-size: 10pt; color:#000000; font-style:normal; font-weight:normal; text-decoration:none"   >
+
+<INPUT id=u14  type=text value="703-985-6235" style="position:absolute; left:10px; top:340px; width:175px; height:25px; ; ; text-align: left ; font-family:'Arial'; font-size: 10pt; color:#000000; font-style:normal; font-weight:normal; text-decoration:none"   >
+
+<INPUT id=u15  type=text value="504-994-9876" style="position:absolute; left:10px; top:370px; width:175px; height:25px; ; ; text-align: left ; font-family:'Arial'; font-size: 10pt; color:#000000; font-style:normal; font-weight:normal; text-decoration:none"   >
+
+<SELECT id=u16  style="position:absolute; left:190px; top:338px; width:110px; height:22px; ; background-color:#FFFFFF; text-align: left ; font-family:'Arial'; font-size: 10pt; color:#000000; font-style:normal; font-weight:normal; text-decoration:none" >
+<OPTION selected value="Home">Home</OPTION>
+<OPTION selected value="Cell">Cell</OPTION>
+<OPTION selected value="Work">Work</OPTION>
+</SELECT>
+
+<SELECT id=u17  style="position:absolute; left:190px; top:370px; width:110px; height:22px; ; background-color:#FFFFFF; text-align: left ; font-family:'Arial'; font-size: 10pt; color:#000000; font-style:normal; font-weight:normal; text-decoration:none" >
+<OPTION selected value="Work">Work</OPTION>
+<OPTION selected value="Home">Home</OPTION>
+<OPTION selected value="Cell">Cell</OPTION>
+</SELECT>
+
+<SELECT id=u18  style="position:absolute; left:190px; top:400px; width:110px; height:22px; ; background-color:#FFFFFF; text-align: left ; font-family:'Arial'; font-size: 10pt; color:#000000; font-style:normal; font-weight:normal; text-decoration:none" >
+<OPTION selected value="Cell">Cell</OPTION>
+<OPTION selected value="Work">Work</OPTION>
+<OPTION selected value="Home">Home</OPTION>
+</SELECT>
+
+<INPUT id=u19  type=text value="301-456-7890" style="position:absolute; left:10px; top:400px; width:175px; height:25px; ; ; text-align: left ; font-family:'Arial'; font-size: 10pt; color:#000000; font-style:normal; font-weight:normal; text-decoration:none"   >
+
+<INPUT id=u20  type=text value="Joe" style="position:absolute; left:10px; top:245px; width:175px; height:25px; ; ; text-align: left ; font-family:'Arial'; font-size: 10pt; color:#000000; font-style:normal; font-weight:normal; text-decoration:none"   >
+
+<INPUT id=u21  type=text value="******" style="position:absolute; left:10px; top:280px; width:175px; height:25px; ; ; text-align: left ; font-family:'Arial'; font-size: 10pt; color:#000000; font-style:normal; font-weight:normal; text-decoration:none"   >
+
+<DIV id=ou22 style="position:absolute; left:10px; top:430px; width:301px; height:196px;; overflow:visible">
+
+<span style="position:absolute; left:-3px; top:-3px; width:309px; height:204px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='Consultant Profile_files/u22.png',sizingMethod='scale');
+"><img style="width:309px; height:204px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="Consultant Profile_files/u22.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u22container style="position:absolute; left:10px; top:430px; width:301px; height:196px;; overflow:visible">
+
+<DIV id=u23 style="position:absolute; left:2px; top:2px; width:296px; height:16px; ; ; text-align: left ; font-family:Arial; text-align:left;" >
+<DIV id=u23_rtf><span style=" color:#000000; font-size:10pt;">**Offered Services**</span></DIV></DIV>
+</DIV>
+<IMG id=u22 src="Resources/transparent.gif" style="position:absolute; left:10px; top:430px; width:300px; height:195px"  >
+<SCRIPT src="Resources/axurerp_pagescript.js"></SCRIPT>
+<SCRIPT src="Consultant Profile_files/axurerp_pagespecificscript.js"></SCRIPT></BODY></HTML>

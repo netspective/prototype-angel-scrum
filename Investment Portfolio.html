@@ -1,0 +1,318 @@
+<HTML><HEAD><meta http-equiv="content-type" content="text/html; charset=utf-8"><meta http-equiv="imagetoolbar" content="no"><link href="Resources/axurerppage.css" type="text/css" rel="stylesheet"></HEAD><BODY>
+<script type="text/javascript">
+function InitializeSubmenu(submenucontainerid, tablecellroid, tablecellid, fname) { 
+var s = "";
+s = s + "function " + fname + "() { ";
+s = s + "document.getElementById(submenucontainerid).style.visibility='';";
+s = s + "BringToFront(submenucontainerid);";
+s = s + "}";
+if ((index = navigator.userAgent.indexOf("MSIE")) >= 0)
+s = s + "document.getElementById('" + tablecellid + "').attachEvent(\"onmouseover\", " + fname + ");";
+else
+s = s + "document.getElementById('" + tablecellid + "').addEventListener(\"mouseover\", " + fname + ", true);";
+s = s + "document.getElementById(tablecellroid).onclick = function() {";
+s = s + "if( document.createEvent ) {";
+s = s + "var evObj = document.createEvent('MouseEvents');";
+s = s + "evObj.initEvent( 'click', true, false );";
+s = s + "document.getElementById(tablecellid).dispatchEvent(evObj);";
+s = s + "} else if( document.createEventObject ) {";
+s = s + "document.getElementById(tablecellid).fireEvent('onclick');";
+s = s + "}";
+s = s + "}";
+eval(s);
+}
+</script>
+
+<DIV id=u0 style="position:absolute; left:660px; top:30px; width:60px; height:16px; ; ; text-align: left ; font-family:Arial; text-align:left;" >
+<DIV id=u0_rtf><span style=" font-family:'Arial'; color:#0000FF; font-size:10pt;"><u>Sign Out</u></span></DIV></DIV>
+<DIV id=u1 style="position:absolute; left:660px; top:10px; width:70px; height:16px; ; ; text-align: left ; font-family:Arial; text-align:left;" >
+<DIV id=u1_rtf><span style=" font-family:'Arial'; color:#0000FF; font-size:10pt;"><u>RSS Feed</u></span></DIV></DIV>
+<span style="position:absolute; left:10px; top:70px; width:723px; height:5px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='Investment Portfolio_files/u2.png',sizingMethod='scale');
+"><img style="width:723px; height:5px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="Investment Portfolio_files/u2.png" border="0" alt=""></span>
+
+<IMG id=u2 src="Resources/transparent.gif" style="position:absolute; left:10px; top:69.5px; width:720px; height:2px">
+
+<span style="position:absolute; left:10px; top:16px; width:180px; height:30px">
+<IMG id=ou3 src="Investment Portfolio_files/u3.jpg" style="position:absolute;left:0px;top:0px;width:180px;height:30px">
+</span>
+<IMG id=u3 src="Resources/transparent.gif" style="position:absolute; left:10px; top:16px; width:180px; height:30px"   >
+
+<DIV id=u4 style="position:absolute; left:580px; top:56px; width:150px; height:14px; ; ; text-align: left ; font-family:Arial; text-align:left;" >
+<DIV id=u4_rtf><div style="text-align:right"><span style=" font-family:'Arial'; color:#000000; font-size:8pt;"><i>A Netspective production</i></span></div></DIV></DIV>
+<DIV id=u5 style="position:absolute; left:180px; top:20px; width:150px; height:16px; ; ; text-align: left ; font-family:Arial; text-align:left;" >
+<DIV id=u5_rtf><span style=" color:#0000FF; font-size:10pt;">Interactive Prototype</span></DIV></DIV>
+<DIV id=ou6 style="position:absolute; left:10px; top:76px; width:721px; height:31px;; overflow:visible">
+
+<span style="position:absolute; left:-3px; top:-3px; width:729px; height:39px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='Investment Portfolio_files/u6.png',sizingMethod='scale');
+"><img style="width:729px; height:39px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="Investment Portfolio_files/u6.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u6container style="position:absolute; left:10px; top:76px; width:721px; height:31px;; overflow:visible">
+
+<DIV id=u7 style="position:absolute; left:2px; top:7px; width:716px; height:16px; ; ; text-align: center ; font-family:Arial; text-align:left;" >
+<DIV id=u7_rtf>&nbsp;</DIV></DIV>
+</DIV>
+<IMG id=u6 src="Resources/transparent.gif" style="position:absolute; left:10px; top:76px; width:720px; height:30px"  >
+
+<DIV id=u8 style="position:absolute; left:20px; top:86px; width:120px; height:16px; ; ; text-align: left ; font-family:Arial; text-align:left;" >
+<DIV id=u8_rtf><span style=" font-family:'Arial'; color:#FF0000; font-size:10pt;"><u>Investment Portfolio</u></span></DIV></DIV>
+<DIV id=u9 style="position:absolute; left:150px; top:86px; width:100px; height:16px; ; ; text-align: left ; font-family:Arial; text-align:left;" >
+<DIV id=u9_rtf><span style=" font-family:'Arial'; color:#FF0000; font-size:10pt;"><u>Accredited Deals</u></span></DIV></DIV>
+<DIV id=u10 style="position:absolute; left:265px; top:86px; width:140px; height:16px; ; ; text-align: left ; font-family:Arial; text-align:left;" >
+<DIV id=u10_rtf><span style=" font-family:'Arial'; color:#FF0000; font-size:10pt;"><u>Forums (Public/Private)</u></span></DIV></DIV>
+<DIV id=u11 style="position:absolute; left:415px; top:86px; width:50px; height:16px; ; ; text-align: left ; font-family:Arial; text-align:left;" >
+<DIV id=u11_rtf><span style=" font-family:'Arial'; color:#FF0000; font-size:10pt;"><u>Profile</u></span></DIV></DIV>
+<DIV id=u12 style="position:absolute; left:10px; top:50px; width:630px; height:24px; ; ; text-align: left ; font-family:Arial; text-align:left;" >
+<DIV id=u12_rtf><span style=" color:#0000FF; font-size:16pt;">Investor Investment Portfolio</span></DIV></DIV>
+<DIV id=u13 style="position:absolute; left:10px; top:127px; width:150px; height:16px; ; ; text-align: left ; font-family:Arial; text-align:left;" >
+<DIV id=u13_rtf><span style=" font-family:'Arial'; color:#000000; font-size:10pt;">Deals</span></DIV></DIV>
+<DIV id=u14 style="position:absolute; left:10px; top:157px; width:725px; height:228px;"></DIV>
+
+<DIV id=u14container style="position:absolute; left:10px; top:157px; width:725px; height:228px; overflow:hidden">
+
+<DIV id=ou15 style="position:absolute; left:0px; top:0px; width:101px; height:69px;; overflow:visible">
+
+<span style="position:absolute; left:-3px; top:-3px; width:109px; height:77px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='Investment Portfolio_files/u15.png',sizingMethod='scale');
+"><img style="width:109px; height:77px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="Investment Portfolio_files/u15.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u15container style="position:absolute; left:0px; top:0px; width:101px; height:69px;; overflow:visible">
+
+<DIV id=u16 style="position:absolute; left:2px; top:2px; width:96px; height:16px; ; ; text-align: left ; font-family:Arial; text-align:left;" >
+<DIV id=u16_rtf><span style=" font-family:'Arial'; color:#000000; font-size:10pt;">Tim Orbanek</span></DIV></DIV>
+</DIV>
+<IMG id=u15 src="Resources/transparent.gif" style="position:absolute; left:0px; top:0px; width:100px; height:68px"  >
+
+<DIV id=ou17 style="position:absolute; left:100px; top:0px; width:101px; height:69px;; overflow:visible">
+
+<span style="position:absolute; left:-3px; top:-3px; width:109px; height:77px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='Investment Portfolio_files/u17.png',sizingMethod='scale');
+"><img style="width:109px; height:77px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="Investment Portfolio_files/u17.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u17container style="position:absolute; left:100px; top:0px; width:101px; height:69px;; overflow:visible">
+
+<DIV id=u18 style="position:absolute; left:2px; top:2px; width:96px; height:16px; ; ; text-align: left ; font-family:Arial; text-align:left;" >
+<DIV id=u18_rtf><span style=" color:#000000; font-size:10pt;">$4,000</span></DIV></DIV>
+</DIV>
+<IMG id=u17 src="Resources/transparent.gif" style="position:absolute; left:100px; top:0px; width:100px; height:68px"  >
+
+<DIV id=ou19 style="position:absolute; left:200px; top:0px; width:101px; height:69px;; overflow:visible">
+
+<span style="position:absolute; left:-3px; top:-3px; width:109px; height:77px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='Investment Portfolio_files/u19.png',sizingMethod='scale');
+"><img style="width:109px; height:77px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="Investment Portfolio_files/u19.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u19container style="position:absolute; left:200px; top:0px; width:101px; height:69px;; overflow:visible">
+
+<DIV id=u20 style="position:absolute; left:2px; top:2px; width:96px; height:16px; ; ; text-align: left ; font-family:Arial; text-align:left;" >
+<DIV id=u20_rtf><span style=" color:#000000; font-size:10pt;">The PiPod</span></DIV></DIV>
+</DIV>
+<IMG id=u19 src="Resources/transparent.gif" style="position:absolute; left:200px; top:0px; width:100px; height:68px"  >
+
+<DIV id=ou21 style="position:absolute; left:300px; top:0px; width:421px; height:69px;; overflow:visible">
+
+<span style="position:absolute; left:-3px; top:-3px; width:429px; height:77px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='Investment Portfolio_files/u21.png',sizingMethod='scale');
+"><img style="width:429px; height:77px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="Investment Portfolio_files/u21.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u21container style="position:absolute; left:300px; top:0px; width:421px; height:69px;; overflow:visible">
+
+<DIV id=u22 style="position:absolute; left:2px; top:2px; width:416px; height:64px; ; ; text-align: left ; font-family:Arial; text-align:left;" >
+<DIV id=u22_rtf><span style=" color:#000000; font-size:10pt;">A mimick of the iPod shuffle, that costs less, and has a screen running accross the top to display the title, artist, and album of the song, aswell as the time.&nbsp; The coolest part is that you can wear it on your wrist.</span></DIV></DIV>
+</DIV>
+<IMG id=u21 src="Resources/transparent.gif" style="position:absolute; left:300px; top:0px; width:420px; height:68px"  >
+
+<DIV id=ou23 style="position:absolute; left:0px; top:68px; width:101px; height:39px;; overflow:visible">
+
+<span style="position:absolute; left:-3px; top:-3px; width:109px; height:47px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='Investment Portfolio_files/u23.png',sizingMethod='scale');
+"><img style="width:109px; height:47px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="Investment Portfolio_files/u23.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u23container style="position:absolute; left:0px; top:68px; width:101px; height:39px;; overflow:visible">
+
+<DIV id=u24 style="position:absolute; left:2px; top:2px; width:96px; height:16px; ; ; text-align: left ; font-family:Arial; text-align:left;" >
+<DIV id=u24_rtf><span style=" font-family:'Arial'; color:#000000; font-size:10pt;">Wesly Good</span></DIV></DIV>
+</DIV>
+<IMG id=u23 src="Resources/transparent.gif" style="position:absolute; left:0px; top:68px; width:100px; height:38px"  >
+
+<DIV id=ou25 style="position:absolute; left:100px; top:68px; width:101px; height:39px;; overflow:visible">
+
+<span style="position:absolute; left:-3px; top:-3px; width:109px; height:47px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='Investment Portfolio_files/u25.png',sizingMethod='scale');
+"><img style="width:109px; height:47px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="Investment Portfolio_files/u25.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u25container style="position:absolute; left:100px; top:68px; width:101px; height:39px;; overflow:visible">
+
+<DIV id=u26 style="position:absolute; left:2px; top:2px; width:96px; height:16px; ; ; text-align: left ; font-family:Arial; text-align:left;" >
+<DIV id=u26_rtf><span style=" color:#000000; font-size:10pt;">$3,500</span></DIV></DIV>
+</DIV>
+<IMG id=u25 src="Resources/transparent.gif" style="position:absolute; left:100px; top:68px; width:100px; height:38px"  >
+
+<DIV id=ou27 style="position:absolute; left:200px; top:68px; width:101px; height:39px;; overflow:visible">
+
+<span style="position:absolute; left:-3px; top:-3px; width:109px; height:47px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='Investment Portfolio_files/u27.png',sizingMethod='scale');
+"><img style="width:109px; height:47px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="Investment Portfolio_files/u27.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u27container style="position:absolute; left:200px; top:68px; width:101px; height:39px;; overflow:visible">
+
+<DIV id=u28 style="position:absolute; left:2px; top:2px; width:96px; height:16px; ; ; text-align: left ; font-family:Arial; text-align:left;" >
+<DIV id=u28_rtf><span style=" color:#000000; font-size:10pt;">The Pinapple</span></DIV></DIV>
+</DIV>
+<IMG id=u27 src="Resources/transparent.gif" style="position:absolute; left:200px; top:68px; width:100px; height:38px"  >
+
+<DIV id=ou29 style="position:absolute; left:300px; top:68px; width:421px; height:39px;; overflow:visible">
+
+<span style="position:absolute; left:-3px; top:-3px; width:429px; height:47px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='Investment Portfolio_files/u29.png',sizingMethod='scale');
+"><img style="width:429px; height:47px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="Investment Portfolio_files/u29.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u29container style="position:absolute; left:300px; top:68px; width:421px; height:39px;; overflow:visible">
+
+<DIV id=u30 style="position:absolute; left:2px; top:2px; width:416px; height:32px; ; ; text-align: left ; font-family:Arial; text-align:left;" >
+<DIV id=u30_rtf><span style=" color:#000000; font-size:10pt;">Bluetooth headset, works on cell phones, and portable mp3 players</span></DIV></DIV>
+</DIV>
+<IMG id=u29 src="Resources/transparent.gif" style="position:absolute; left:300px; top:68px; width:420px; height:38px"  >
+
+<DIV id=ou31 style="position:absolute; left:0px; top:106px; width:101px; height:50px;; overflow:visible">
+
+<span style="position:absolute; left:-3px; top:-3px; width:109px; height:58px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='Investment Portfolio_files/u31.png',sizingMethod='scale');
+"><img style="width:109px; height:58px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="Investment Portfolio_files/u31.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u31container style="position:absolute; left:0px; top:106px; width:101px; height:50px;; overflow:visible">
+
+<DIV id=u32 style="position:absolute; left:2px; top:2px; width:96px; height:16px; ; ; text-align: left ; font-family:Arial; text-align:left;" >
+<DIV id=u32_rtf><span style=" font-family:'Arial'; color:#000000; font-size:10pt;">Ben Genzer</span></DIV></DIV>
+</DIV>
+<IMG id=u31 src="Resources/transparent.gif" style="position:absolute; left:0px; top:106px; width:100px; height:49px"  >
+
+<DIV id=ou33 style="position:absolute; left:100px; top:106px; width:101px; height:50px;; overflow:visible">
+
+<span style="position:absolute; left:-3px; top:-3px; width:109px; height:58px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='Investment Portfolio_files/u33.png',sizingMethod='scale');
+"><img style="width:109px; height:58px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="Investment Portfolio_files/u33.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u33container style="position:absolute; left:100px; top:106px; width:101px; height:50px;; overflow:visible">
+
+<DIV id=u34 style="position:absolute; left:2px; top:2px; width:96px; height:16px; ; ; text-align: left ; font-family:Arial; text-align:left;" >
+<DIV id=u34_rtf><span style=" color:#000000; font-size:10pt;">$</span><span style=" font-family:'Arial'; color:#000000; font-size:10pt;">5,050</span></DIV></DIV>
+</DIV>
+<IMG id=u33 src="Resources/transparent.gif" style="position:absolute; left:100px; top:106px; width:100px; height:49px"  >
+
+<DIV id=ou35 style="position:absolute; left:200px; top:106px; width:101px; height:50px;; overflow:visible">
+
+<span style="position:absolute; left:-3px; top:-3px; width:109px; height:58px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='Investment Portfolio_files/u35.png',sizingMethod='scale');
+"><img style="width:109px; height:58px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="Investment Portfolio_files/u35.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u35container style="position:absolute; left:200px; top:106px; width:101px; height:50px;; overflow:visible">
+
+<DIV id=u36 style="position:absolute; left:2px; top:2px; width:96px; height:16px; ; ; text-align: left ; font-family:Arial; text-align:left;" >
+<DIV id=u36_rtf><span style=" font-family:'Arial'; color:#000000; font-size:10pt;">The Game Chair</span></DIV></DIV>
+</DIV>
+<IMG id=u35 src="Resources/transparent.gif" style="position:absolute; left:200px; top:106px; width:100px; height:49px"  >
+
+<DIV id=ou37 style="position:absolute; left:300px; top:106px; width:421px; height:50px;; overflow:visible">
+
+<span style="position:absolute; left:-3px; top:-3px; width:429px; height:58px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='Investment Portfolio_files/u37.png',sizingMethod='scale');
+"><img style="width:429px; height:58px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="Investment Portfolio_files/u37.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u37container style="position:absolute; left:300px; top:106px; width:421px; height:50px;; overflow:visible">
+
+<DIV id=u38 style="position:absolute; left:2px; top:2px; width:416px; height:32px; ; ; text-align: left ; font-family:Arial; text-align:left;" >
+<DIV id=u38_rtf><span style=" color:#000000; font-size:10pt;">The ultamite gaming chair.&nbsp; It has wireless speakers, a cup holder, and a controller and remote holder.</span></DIV></DIV>
+</DIV>
+<IMG id=u37 src="Resources/transparent.gif" style="position:absolute; left:300px; top:106px; width:420px; height:49px"  >
+
+<DIV id=ou39 style="position:absolute; left:0px; top:155px; width:101px; height:69px;; overflow:visible">
+
+<span style="position:absolute; left:-3px; top:-3px; width:109px; height:77px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='Investment Portfolio_files/u39.png',sizingMethod='scale');
+"><img style="width:109px; height:77px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="Investment Portfolio_files/u39.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u39container style="position:absolute; left:0px; top:155px; width:101px; height:69px;; overflow:visible">
+
+<DIV id=u40 style="position:absolute; left:2px; top:2px; width:96px; height:16px; ; ; text-align: left ; font-family:Arial; text-align:left;" >
+<DIV id=u40_rtf><span style=" font-family:'Arial'; color:#000000; font-size:10pt;">Julian Wood</span></DIV></DIV>
+</DIV>
+<IMG id=u39 src="Resources/transparent.gif" style="position:absolute; left:0px; top:155px; width:100px; height:68px"  >
+
+<DIV id=ou41 style="position:absolute; left:100px; top:155px; width:101px; height:69px;; overflow:visible">
+
+<span style="position:absolute; left:-3px; top:-3px; width:109px; height:77px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='Investment Portfolio_files/u41.png',sizingMethod='scale');
+"><img style="width:109px; height:77px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="Investment Portfolio_files/u41.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u41container style="position:absolute; left:100px; top:155px; width:101px; height:69px;; overflow:visible">
+
+<DIV id=u42 style="position:absolute; left:2px; top:2px; width:96px; height:16px; ; ; text-align: left ; font-family:Arial; text-align:left;" >
+<DIV id=u42_rtf><span style=" color:#000000; font-size:10pt;">$</span><span style=" font-family:'Arial'; color:#000000; font-size:10pt;">3,300</span></DIV></DIV>
+</DIV>
+<IMG id=u41 src="Resources/transparent.gif" style="position:absolute; left:100px; top:155px; width:100px; height:68px"  >
+
+<DIV id=ou43 style="position:absolute; left:200px; top:155px; width:101px; height:69px;; overflow:visible">
+
+<span style="position:absolute; left:-3px; top:-3px; width:109px; height:77px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='Investment Portfolio_files/u43.png',sizingMethod='scale');
+"><img style="width:109px; height:77px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="Investment Portfolio_files/u43.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u43container style="position:absolute; left:200px; top:155px; width:101px; height:69px;; overflow:visible">
+
+<DIV id=u44 style="position:absolute; left:2px; top:2px; width:96px; height:16px; ; ; text-align: left ; font-family:Arial; text-align:left;" >
+<DIV id=u44_rtf><span style=" font-family:'Arial'; color:#000000; font-size:10pt;">R2-D2</span></DIV></DIV>
+</DIV>
+<IMG id=u43 src="Resources/transparent.gif" style="position:absolute; left:200px; top:155px; width:100px; height:68px"  >
+
+<DIV id=ou45 style="position:absolute; left:300px; top:155px; width:421px; height:69px;; overflow:visible">
+
+<span style="position:absolute; left:-3px; top:-3px; width:429px; height:77px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='Investment Portfolio_files/u45.png',sizingMethod='scale');
+"><img style="width:429px; height:77px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="Investment Portfolio_files/u45.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u45container style="position:absolute; left:300px; top:155px; width:421px; height:69px;; overflow:visible">
+
+<DIV id=u46 style="position:absolute; left:2px; top:2px; width:416px; height:48px; ; ; text-align: left ; font-family:Arial; text-align:left;" >
+<DIV id=u46_rtf><span style=" color:#000000; font-size:10pt;">A 3ft tall model of R2-D2 from Star Wars (C), that is powered by remote, that can do anything from get you a pair of socks, to getting you a soda, to changing the CD in the stereo.</span></DIV></DIV>
+</DIV>
+<IMG id=u45 src="Resources/transparent.gif" style="position:absolute; left:300px; top:155px; width:420px; height:68px"  >
+
+</DIV><SCRIPT src="Resources/axurerp_pagescript.js"></SCRIPT>
+<SCRIPT src="Investment Portfolio_files/axurerp_pagespecificscript.js"></SCRIPT></BODY></HTML>
